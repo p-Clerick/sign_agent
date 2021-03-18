@@ -7,7 +7,8 @@
     "shtest": "bash test/test.sh",
     "test": "jest",
     "cover": "npm run test -- --coverage",
-    "bundle": "webpack"
+    "bundle": "webpack",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,8 @@
   "keywords": [
     "cryptography",
     "dstu4145",
-    "ukraine"
+    "ukraine",
+    "web-interface"
   ],
   "author": "p-Clerick",
   "license": "BSD",
