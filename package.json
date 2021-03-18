@@ -1,7 +1,7 @@
 {
-  "name": "dstucrypt-agent",
-  "version": "0.0.2",
-  "description": "Signing tool for DSTU4145",
+  "name": "sign-agent",
+  "version": "1.0.0",
+  "description": "Fork of 'Signing tool for DSTU4145' module; Implements web-interface for signing data. Original module homepage: https://github.com/dstucrypt/agent",
   "main": "index.js",
   "scripts": {
     "shtest": "bash test/test.sh",
@@ -11,19 +11,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:dstucrypt/agent"
+    "url": "https://github.com/p-Clerick/sign_agent.git"
   },
   "keywords": [
     "cryptography",
     "dstu4145",
     "ukraine"
   ],
-  "author": "Ilya Petrov",
+  "author": "p-Clerick",
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/dstucrypt/agent/issues"
+    "url": "https://github.com/p-Clerick/sign_agent/issues"
   },
-  "homepage": "https://github.com/dstucrypt/agent",
+  "homepage": "https://github.com/p-Clerick/sign_agent",
   "devDependencies": {
     "codecov": "^3.1.0",
     "@babel/cli": "^7.4.4",
@@ -42,5 +42,9 @@
     "jksreader": "^1.0.0",
     "jkurwa": "^1.7.2",
     "yargs": "1.3.x"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
